@@ -1,3 +1,6 @@
 .DS_Store
 node_modules/
 *.env
+.venv
+.next-dev.stdout.log
+.next-dev.stderr.log
