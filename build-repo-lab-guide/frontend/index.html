@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Build Repo Lab Guide</title>
+
+    <link rel="stylesheet" href="sytle.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- ================= Header ================= -->
+
+        <header class="header">
+
+            <h1>📘 Build Repo Lab Guide</h1>
+
+            <p class="subtitle">
+                AI-powered Documentation Summarizer
+            </p>
+
+        </header>
+
+        <!-- ================= Input Card ================= -->
+
+        <section class="card">
+
+            <h2>Documentation URL</h2>
+
+            <p class="description">
+                Paste the documentation or tutorial URL below.
+            </p>
+
+            <input
+                id="urlInput"
+                type="url"
+                placeholder="https://docs.example.com/tutorial"
+            >
+
+            <button id="analyzeBtn">
+
+                Analyze Documentation
+
+            </button>
+
+            <div id="status">
+
+                Status: Ready
+
+            </div>
+
+        </section>
+
+        <!-- ================= Output Card ================= -->
+
+        <section class="card">
+
+            <h2>Generated Summary</h2>
+
+            <div id="summary">
+
+                <div class="placeholder">
+
+                    <h3>No Summary Yet</h3>
+
+                    <p>
+
+                        Enter a documentation URL and click
+                        <strong>Analyze Documentation</strong>.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

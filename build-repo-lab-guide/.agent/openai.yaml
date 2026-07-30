@@ -1,0 +1,27 @@
+interface:
+  display_name: Web Summarizer
+  short_description: Generate a structured summary from a documentation URL.
+  default_prompt: >
+    Read the documentation from the provided URL and generate
+    a concise, beginner-friendly summary.
+
+agent:
+  name: WebSummarizer
+  version: 0.1.0
+  description: >
+    An AI agent that reads technical documentation from a URL
+    and produces a structured summary.
+
+capabilities:
+  - summarize_documentation
+  - extract_key_points
+  - explain_for_beginners
+
+input:
+  type: url
+
+output:
+  format: markdown
+
+skills:
+  - skills/web-summarizer/skill.md
